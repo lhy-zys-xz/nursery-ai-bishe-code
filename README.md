@@ -20,7 +20,7 @@
 ## 代码说明
  `github.py` | ESP32-S3硬件端主程序，负责传感器数据采集、摄像头控制、本地Web服务器搭建 
  `nursery_leaf_disease_ai_inference_demo.ipynb` | 番茄叶片病虫害AI识别推理代码，基于TensorFlow/Keras，支持单张图片的病害识别与结果可视化
- `simple_ai.py` | Flask Web服务端主程序，负责加载AI模型、提供病害识别网页界面、展示识别结果与专业防治建议
+ `simple_ai.ipynb`和`app.ipynb` | Flask Web服务端主程序，负责加载AI模型、提供病害识别网页界面、展示识别结果与专业防治建议
 
 ## 使用说明
 ### 1. ESP32硬件端部署
